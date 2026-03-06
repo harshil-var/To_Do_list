@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern To-Do List</title>
+    <!-- Font Awesome for modern icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container glass">
+        <div class="input-container">
+            <h1><i class="fa-solid fa-check-double"></i> Tasks</h1>
+            <div class="input-group">
+                <input type="text" placeholder="What needs to be done?" id="inputBox" autocomplete="off">
+                <button id="addBtn"><i class="fa-solid fa-plus"></i></button>
+            </div>
+        </div>
+
+        <ul class="todoList" id="todoList">
+            <!-- List items dynamically generated -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
